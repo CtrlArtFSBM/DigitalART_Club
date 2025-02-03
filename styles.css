@@ -180,7 +180,8 @@
   
 /* anas kettani section */
 #anas {
-  margin-left: 34%;
+    justify-self: center;
+    padding-left: 36%;
 }
 
 #anas .bureau-card {
