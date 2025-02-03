@@ -187,23 +187,9 @@
   width: 150%;
   height: 120%;
 }
-/* Make the Anas section responsive */
-@media (max-width: 768px) {
-  #anas {
-    margin-left: 0; /* Remove left margin on smaller screens */
-    text-align: center; /* Center the content */
-  }
-
-  #anas .bureau-card {
-    width: 80%; /* Adjust width on small screens */
-    height: auto; /* Make height responsive */
-    margin: 0 auto; /* Center the card */
-  }
-}
-
-@media (max-width: 480px) {
-  #anas .bureau-card {
-    width: 90%; /* Further reduce width on very small screens */
+@media (min-width: 768px) {
+  #anas .bureau-grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
   
