@@ -93,6 +93,7 @@
     justify-content: center;
     padding: 6rem 2rem 2rem;
     background: linear-gradient(1deg, rgb(10, 0, 10) 10%, rgba(138, 43, 226, 0.1));
+    margin-bottom: -5% ;
   }
   
   .hero-content {
@@ -117,7 +118,20 @@
     text-decoration: none;
     box-shadow: var(--primary) 1px 1px 10px;
   }
+
+    /*whatsapp*/
+#whatsapp{
+  float: right;
+  margin-right: 4%;
   
+}
+.fa-whatsapp{
+  margin-bottom: 2%;
+  color: rgb(114, 13, 155);
+  position: fixed;
+  
+}
+
   /* Sections */
   .section {
     padding: 5rem 2rem;
@@ -177,6 +191,18 @@
     color: var(--accent);
     margin-bottom: 1.5rem;
   }
+
+
+
+/* anas kettani section */
+#anas {
+  margin-left: 34%;
+}
+
+#anas .bureau-card {
+  width: 150%;
+  height: 120%;
+}
   
   /* Bureau Section */
   .bureau-grid {
