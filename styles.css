@@ -180,19 +180,19 @@
   
 /* anas kettani section */
 #anas {
-    justify-self: center;
-    padding-left: 36%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap:2em;
+
+
 }
 
 #anas .bureau-card {
-  width: 150%;
-  height: 120%;
+  width: auto;
+  height: auto;
 }
-@media (min-width: 768px) {
-  #anas .bureau-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
+
+
   
   /* Bureau Section */
   .bureau-grid {
@@ -322,6 +322,7 @@
     background-size: 1em;
     background-color: #18081b;
   }
+  
   
   /* Footer */
   .footer {
